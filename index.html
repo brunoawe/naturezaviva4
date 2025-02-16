@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Associação Ambiental</title>
+    <title>Natureza Viva Cohousing</title>
     <style>
         body {
             margin: 0;
@@ -20,6 +20,7 @@
             background: rgba(0, 0, 0, 0.5);
             padding: 20px;
             border-radius: 10px;
+            max-width: 90%;
         }
         h1 {
             font-size: 2.5rem;
@@ -41,13 +42,37 @@
         .btn:hover {
             background-color: #218838;
         }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            .btn {
+                font-size: 1rem;
+                padding: 8px 16px;
+            }
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            p {
+                font-size: 0.9rem;
+            }
+            .btn {
+                font-size: 0.9rem;
+                padding: 6px 12px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Bem-vindo à Associação Ambiental</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ut libero non odio vehicula vehicula.</p>
-        <a href="https://www.notion.so" class="btn" target="_blank">Saiba mais</a>
+        <h1>Natureza Viva Cohousing</h1>
+        <p>Somos um grupo conectado por desejos em comum: a procura pelo bem-viver, a vida sustentável e a conexão com a natureza.</p>
+        <a href="https://www.notion.so" class="btn" target="_blank">Conheça o Projeto</a>
     </div>
 </body>
 </html>
